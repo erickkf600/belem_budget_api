@@ -14,7 +14,7 @@
 */
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
-const Route = use('Route')
+const Route = use('Routess')
 
 Route.post('/auth/social', 'AuthController.SocialAuth')
 
